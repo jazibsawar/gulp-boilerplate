@@ -1,0 +1,53 @@
+{
+  "name": "gulp-boilerplate",
+  "version": "1.0.0",
+  "description": "Optimized and Quick front-end boilerplate using gulp that will use SASS, minification, resource bundling & Image optimization to get better Speed and efficiency",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jazibsawar/gulp-boilerplate.git"
+  },
+  "keywords": [
+    "gulp",
+    "workflow",
+    "sass",
+    "minification",
+    "browser-sync",
+    "image-optimization",
+    "gulpjs"
+  ],
+  "author": "Jazib Sawar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jazibsawar/gulp-boilerplate/issues"
+  },
+  "homepage": "https://github.com/jazibsawar/gulp-boilerplate#readme",
+  "devDependencies": {
+    "babel-loader": "^7.0.0",
+    "babel-plugin-syntax-object-rest-spread": "^6.13.0",
+    "babel-plugin-transform-class-properties": "^6.10.2",
+    "babel-plugin-transform-object-assign": "^6.8.0",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-preset-env": "1.6.0",
+    "babel-register": "^6.11.6",
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-changed": "^3.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-order": "^1.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "imagemin-gifsicle": "^5.2.0",
+    "imagemin-mozjpeg": "^6.0.0",
+    "imagemin-pngquant": "^5.0.1",
+    "webpack": "^3.6.0"
+  }
+}
